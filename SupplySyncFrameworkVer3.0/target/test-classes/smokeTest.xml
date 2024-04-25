@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests Suite">
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="tests.SupplySyncTests">
+                <methods>
+                    <include name="testLogin"></include>
+                    <include name="testCreateCompany"></include>
+                    <include name="testCreateTariff"></include>
+                    <include name="testDeleteTariff"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
